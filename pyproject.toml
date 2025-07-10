@@ -1,6 +1,6 @@
 [project]
 name = "insightpkg"
-version = "0.1.1"
+version = "0.1.2"
 description = "A simple CLI tool to fetch metadata from PyPI"
 authors = [
     { name = "Mayank", email = "n/a" }
@@ -14,5 +14,5 @@ dependencies = ["requests"]
 insightpkg = "insightpkg.cli:main"
 
 [build-system]
-requires = ["uv"]
-build-backend = "uv.build"
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
