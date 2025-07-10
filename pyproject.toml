@@ -1,9 +1,9 @@
 [project]
 name = "insightpkg"
-version = "0.1.2"
+version = "0.1.3"
 description = "A simple CLI tool to fetch metadata from PyPI"
 authors = [
-    { name = "Mayank", email = "n/a" }
+    { name = "Mayank", email = "mayankchoudharysept17@gmail.com" }
 ]
 license = "MIT"
 readme = "README.md"
